@@ -1,1 +1,20 @@
-
+.calander{
+    font-size: 60px;
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    gap: 30px;
+}
+.date ,.day{
+    background-color: aquamarine;
+    border-radius: 15px;
+    height: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.day{
+    background-color: rgb(184, 176, 176);
+    height: 60px;
+    font-size: 60px;
+    padding: 5px;
+}
